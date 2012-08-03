@@ -12,6 +12,9 @@
 @property (nonatomic, strong) AFOpenTradesViewController *openTradesVC;
 @property (nonatomic, strong) AFAnalysisViewController *analysisVC;
 
+- (void)setupPlaceholderViews;
+- (void)handleTap:(UITapGestureRecognizer*)tap;
+
 @end
 
 @implementation AFDashboardViewController

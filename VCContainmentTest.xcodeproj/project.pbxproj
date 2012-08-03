@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8042882E15CA76BB008C718D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8042882D15CA76BB008C718D /* UIKit.framework */; };
+		8042883015CA76BB008C718D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8042882F15CA76BB008C718D /* Foundation.framework */; };
+		8042883215CA76BB008C718D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8042883115CA76BB008C718D /* CoreGraphics.framework */; };
+		8042883815CA76BB008C718D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8042883615CA76BB008C718D /* InfoPlist.strings */; };
+		8042883A15CA76BB008C718D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8042883915CA76BB008C718D /* main.m */; };
+		8042883E15CA76BB008C718D /* AFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8042883D15CA76BB008C718D /* AFAppDelegate.m */; };
+		8042884115CA76BB008C718D /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8042883F15CA76BB008C718D /* MainStoryboard.storyboard */; };
+		8042884415CA76BB008C718D /* AFDashboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8042884315CA76BB008C718D /* AFDashboardViewController.m */; };
+		8042885215CA7BAF008C718D /* AFPortfolioViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8042885115CA7BAF008C718D /* AFPortfolioViewController.m */; };
+		8042885715CA7E0C008C718D /* ipad_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 8042885615CA7E0C008C718D /* ipad_background.png */; };
+		8042885915CA8181008C718D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8042885815CA8181008C718D /* QuartzCore.framework */; };
+		8042885B15CA8267008C718D /* ipad_gradient.png in Resources */ = {isa = PBXBuildFile; fileRef = 8042885A15CA8267008C718D /* ipad_gradient.png */; };
+		8042885E15CA8509008C718D /* AFWidgetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8042885D15CA84FD008C718D /* AFWidgetViewController.m */; };
+		80A0BEBB15CC095100DB852F /* FundsViewTwo.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80A0BEBA15CC095100DB852F /* FundsViewTwo.xib */; };
+		80A0BEBF15CC09BB00DB852F /* AFFundsDetailedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80A0BEBE15CC09BB00DB852F /* AFFundsDetailedViewController.m */; };
+		80A0BEC215CC0ABC00DB852F /* AFOpenTradesDetailedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80A0BEC115CC0ABC00DB852F /* AFOpenTradesDetailedViewController.m */; };
+		80A0BEC515CC0BBF00DB852F /* AFAnalysisDetailedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80A0BEC415CC0BBF00DB852F /* AFAnalysisDetailedViewController.m */; };
+		80A0BEC815CC0D3A00DB852F /* AFDashboardSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80A0BEC715CC0D3A00DB852F /* AFDashboardSettingsViewController.m */; };
+		80DF51D715CBC6FD00DB1EC4 /* AFLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80DF51D615CBC6FD00DB1EC4 /* AFLoginViewController.m */; };
+		80DF51DA15CBC84500DB1EC4 /* bar_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 80DF51D915CBC84500DB1EC4 /* bar_logo.png */; };
+		80DF51DD15CBF12400DB1EC4 /* PortfolioViewOne.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80DF51DC15CBF12400DB1EC4 /* PortfolioViewOne.xib */; };
+		80DF51E015CBF15400DB1EC4 /* PortfolioViewTwo.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80DF51DF15CBF15400DB1EC4 /* PortfolioViewTwo.xib */; };
+		80DF51E215CBF16700DB1EC4 /* PortfolioViewThree.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80DF51E115CBF16700DB1EC4 /* PortfolioViewThree.xib */; };
+		80DF51E515CBF75D00DB1EC4 /* AFPortfolioDetailedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80DF51E415CBF75C00DB1EC4 /* AFPortfolioDetailedViewController.m */; };
+		80DF51EB15CBFAA400DB1EC4 /* AFFundsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80DF51EA15CBFAA400DB1EC4 /* AFFundsViewController.m */; };
+		80DF51ED15CBFAFB00DB1EC4 /* FundsViewOne.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80DF51EC15CBFAFB00DB1EC4 /* FundsViewOne.xib */; };
+		80DF51EF15CBFB4700DB1EC4 /* OpenTradesViewOne.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80DF51EE15CBFB4700DB1EC4 /* OpenTradesViewOne.xib */; };
+		80DF51F215CBFB6E00DB1EC4 /* AFOpenTradesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80DF51F115CBFB6E00DB1EC4 /* AFOpenTradesViewController.m */; };
+		80DF51F415CBFBBC00DB1EC4 /* AnalysisViewOne.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80DF51F315CBFBBC00DB1EC4 /* AnalysisViewOne.xib */; };
+		80DF51F715CBFBE100DB1EC4 /* AFAnalysisViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80DF51F615CBFBE100DB1EC4 /* AFAnalysisViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8042882915CA76BB008C718D /* VCContainmentTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VCContainmentTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8042882D15CA76BB008C718D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8042882F15CA76BB008C718D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8042883115CA76BB008C718D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8042883515CA76BB008C718D /* VCContainmentTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VCContainmentTest-Info.plist"; sourceTree = "<group>"; };
+		8042883715CA76BB008C718D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8042883915CA76BB008C718D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8042883B15CA76BB008C718D /* VCContainmentTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VCContainmentTest-Prefix.pch"; sourceTree = "<group>"; };
+		8042883C15CA76BB008C718D /* AFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFAppDelegate.h; sourceTree = "<group>"; };
+		8042883D15CA76BB008C718D /* AFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFAppDelegate.m; sourceTree = "<group>"; };
+		8042884015CA76BB008C718D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		8042884215CA76BB008C718D /* AFDashboardViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AFDashboardViewController.h; path = VCContainmentTest/AFDashboardViewController.h; sourceTree = "<group>"; };
+		8042884315CA76BB008C718D /* AFDashboardViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AFDashboardViewController.m; path = VCContainmentTest/AFDashboardViewController.m; sourceTree = "<group>"; };
+		8042885015CA7BAF008C718D /* AFPortfolioViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFPortfolioViewController.h; sourceTree = "<group>"; };
+		8042885115CA7BAF008C718D /* AFPortfolioViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFPortfolioViewController.m; sourceTree = "<group>"; };
+		8042885615CA7E0C008C718D /* ipad_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ipad_background.png; sourceTree = "<group>"; };
+		8042885815CA8181008C718D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		8042885A15CA8267008C718D /* ipad_gradient.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ipad_gradient.png; sourceTree = "<group>"; };
+		8042885D15CA84FD008C718D /* AFWidgetViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AFWidgetViewController.m; path = VCContainmentTest/AFWidgetViewController.m; sourceTree = "<group>"; };
+		80A0BEBA15CC095100DB852F /* FundsViewTwo.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FundsViewTwo.xib; sourceTree = "<group>"; };
+		80A0BEBD15CC09BB00DB852F /* AFFundsDetailedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFFundsDetailedViewController.h; sourceTree = "<group>"; };
+		80A0BEBE15CC09BB00DB852F /* AFFundsDetailedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFFundsDetailedViewController.m; sourceTree = "<group>"; };
+		80A0BEC015CC0ABC00DB852F /* AFOpenTradesDetailedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFOpenTradesDetailedViewController.h; sourceTree = "<group>"; };
+		80A0BEC115CC0ABC00DB852F /* AFOpenTradesDetailedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFOpenTradesDetailedViewController.m; sourceTree = "<group>"; };
+		80A0BEC315CC0BBF00DB852F /* AFAnalysisDetailedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFAnalysisDetailedViewController.h; sourceTree = "<group>"; };
+		80A0BEC415CC0BBF00DB852F /* AFAnalysisDetailedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFAnalysisDetailedViewController.m; sourceTree = "<group>"; };
+		80A0BEC615CC0D3A00DB852F /* AFDashboardSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFDashboardSettingsViewController.h; path = VCContainmentTest/AFDashboardSettingsViewController.h; sourceTree = "<group>"; };
+		80A0BEC715CC0D3A00DB852F /* AFDashboardSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFDashboardSettingsViewController.m; path = VCContainmentTest/AFDashboardSettingsViewController.m; sourceTree = "<group>"; };
+		80DF51D515CBC6FD00DB1EC4 /* AFLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFLoginViewController.h; path = VCContainmentTest/AFLoginViewController.h; sourceTree = "<group>"; };
+		80DF51D615CBC6FD00DB1EC4 /* AFLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFLoginViewController.m; path = VCContainmentTest/AFLoginViewController.m; sourceTree = "<group>"; };
+		80DF51D915CBC84500DB1EC4 /* bar_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bar_logo.png; sourceTree = "<group>"; };
+		80DF51DB15CBD52000DB1EC4 /* AFWidgetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFWidgetViewController.h; path = VCContainmentTest/AFWidgetViewController.h; sourceTree = "<group>"; };
+		80DF51DC15CBF12400DB1EC4 /* PortfolioViewOne.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PortfolioViewOne.xib; sourceTree = "<group>"; };
+		80DF51DF15CBF15400DB1EC4 /* PortfolioViewTwo.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PortfolioViewTwo.xib; sourceTree = "<group>"; };
+		80DF51E115CBF16700DB1EC4 /* PortfolioViewThree.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PortfolioViewThree.xib; sourceTree = "<group>"; };
+		80DF51E315CBF75C00DB1EC4 /* AFPortfolioDetailedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFPortfolioDetailedViewController.h; sourceTree = "<group>"; };
+		80DF51E415CBF75C00DB1EC4 /* AFPortfolioDetailedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFPortfolioDetailedViewController.m; sourceTree = "<group>"; };
+		80DF51E915CBFAA400DB1EC4 /* AFFundsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFFundsViewController.h; sourceTree = "<group>"; };
+		80DF51EA15CBFAA400DB1EC4 /* AFFundsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFFundsViewController.m; sourceTree = "<group>"; };
+		80DF51EC15CBFAFB00DB1EC4 /* FundsViewOne.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FundsViewOne.xib; sourceTree = "<group>"; };
+		80DF51EE15CBFB4700DB1EC4 /* OpenTradesViewOne.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OpenTradesViewOne.xib; sourceTree = "<group>"; };
+		80DF51F015CBFB6E00DB1EC4 /* AFOpenTradesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFOpenTradesViewController.h; sourceTree = "<group>"; };
+		80DF51F115CBFB6E00DB1EC4 /* AFOpenTradesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFOpenTradesViewController.m; sourceTree = "<group>"; };
+		80DF51F315CBFBBC00DB1EC4 /* AnalysisViewOne.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AnalysisViewOne.xib; sourceTree = "<group>"; };
+		80DF51F515CBFBE100DB1EC4 /* AFAnalysisViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFAnalysisViewController.h; sourceTree = "<group>"; };
+		80DF51F615CBFBE100DB1EC4 /* AFAnalysisViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFAnalysisViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8042882615CA76BB008C718D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8042885915CA8181008C718D /* QuartzCore.framework in Frameworks */,
+				8042882E15CA76BB008C718D /* UIKit.framework in Frameworks */,
+				8042883015CA76BB008C718D /* Foundation.framework in Frameworks */,
+				8042883215CA76BB008C718D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8042881E15CA76BB008C718D = {
+			isa = PBXGroup;
+			children = (
+				80DF51E815CBFA6000DB1EC4 /* AnalysisWidgetViews */,
+				80DF51E715CBFA5100DB1EC4 /* OpenTradesWidgetViews */,
+				80DF51E615CBFA4500DB1EC4 /* FundsWidgetViews */,
+				80DF51DE15CBF13200DB1EC4 /* PortfolioWidgetViews */,
+				8042885315CA7BB3008C718D /* Controllers */,
+				8042883315CA76BB008C718D /* VCContainmentTest */,
+				8042882C15CA76BB008C718D /* Frameworks */,
+				8042882A15CA76BB008C718D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8042882A15CA76BB008C718D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8042882915CA76BB008C718D /* VCContainmentTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8042882C15CA76BB008C718D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8042885815CA8181008C718D /* QuartzCore.framework */,
+				8042882D15CA76BB008C718D /* UIKit.framework */,
+				8042882F15CA76BB008C718D /* Foundation.framework */,
+				8042883115CA76BB008C718D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8042883315CA76BB008C718D /* VCContainmentTest */ = {
+			isa = PBXGroup;
+			children = (
+				8042883C15CA76BB008C718D /* AFAppDelegate.h */,
+				8042883D15CA76BB008C718D /* AFAppDelegate.m */,
+				8042883F15CA76BB008C718D /* MainStoryboard.storyboard */,
+				8042883415CA76BB008C718D /* Supporting Files */,
+			);
+			path = VCContainmentTest;
+			sourceTree = "<group>";
+		};
+		8042883415CA76BB008C718D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8042885A15CA8267008C718D /* ipad_gradient.png */,
+				8042885615CA7E0C008C718D /* ipad_background.png */,
+				80DF51D915CBC84500DB1EC4 /* bar_logo.png */,
+				8042883515CA76BB008C718D /* VCContainmentTest-Info.plist */,
+				8042883615CA76BB008C718D /* InfoPlist.strings */,
+				8042883915CA76BB008C718D /* main.m */,
+				8042883B15CA76BB008C718D /* VCContainmentTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8042885315CA7BB3008C718D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				80DF51D515CBC6FD00DB1EC4 /* AFLoginViewController.h */,
+				80DF51D615CBC6FD00DB1EC4 /* AFLoginViewController.m */,
+				8042884215CA76BB008C718D /* AFDashboardViewController.h */,
+				8042884315CA76BB008C718D /* AFDashboardViewController.m */,
+				80A0BEC615CC0D3A00DB852F /* AFDashboardSettingsViewController.h */,
+				80A0BEC715CC0D3A00DB852F /* AFDashboardSettingsViewController.m */,
+				80DF51DB15CBD52000DB1EC4 /* AFWidgetViewController.h */,
+				8042885D15CA84FD008C718D /* AFWidgetViewController.m */,
+				8042885015CA7BAF008C718D /* AFPortfolioViewController.h */,
+				8042885115CA7BAF008C718D /* AFPortfolioViewController.m */,
+				80DF51E315CBF75C00DB1EC4 /* AFPortfolioDetailedViewController.h */,
+				80DF51E415CBF75C00DB1EC4 /* AFPortfolioDetailedViewController.m */,
+				80DF51E915CBFAA400DB1EC4 /* AFFundsViewController.h */,
+				80DF51EA15CBFAA400DB1EC4 /* AFFundsViewController.m */,
+				80A0BEBD15CC09BB00DB852F /* AFFundsDetailedViewController.h */,
+				80A0BEBE15CC09BB00DB852F /* AFFundsDetailedViewController.m */,
+				80DF51F015CBFB6E00DB1EC4 /* AFOpenTradesViewController.h */,
+				80DF51F115CBFB6E00DB1EC4 /* AFOpenTradesViewController.m */,
+				80A0BEC015CC0ABC00DB852F /* AFOpenTradesDetailedViewController.h */,
+				80A0BEC115CC0ABC00DB852F /* AFOpenTradesDetailedViewController.m */,
+				80DF51F515CBFBE100DB1EC4 /* AFAnalysisViewController.h */,
+				80DF51F615CBFBE100DB1EC4 /* AFAnalysisViewController.m */,
+				80A0BEC315CC0BBF00DB852F /* AFAnalysisDetailedViewController.h */,
+				80A0BEC415CC0BBF00DB852F /* AFAnalysisDetailedViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		80DF51DE15CBF13200DB1EC4 /* PortfolioWidgetViews */ = {
+			isa = PBXGroup;
+			children = (
+				80DF51DC15CBF12400DB1EC4 /* PortfolioViewOne.xib */,
+				80DF51DF15CBF15400DB1EC4 /* PortfolioViewTwo.xib */,
+				80DF51E115CBF16700DB1EC4 /* PortfolioViewThree.xib */,
+			);
+			name = PortfolioWidgetViews;
+			sourceTree = "<group>";
+		};
+		80DF51E615CBFA4500DB1EC4 /* FundsWidgetViews */ = {
+			isa = PBXGroup;
+			children = (
+				80DF51EC15CBFAFB00DB1EC4 /* FundsViewOne.xib */,
+				80A0BEBA15CC095100DB852F /* FundsViewTwo.xib */,
+			);
+			name = FundsWidgetViews;
+			sourceTree = "<group>";
+		};
+		80DF51E715CBFA5100DB1EC4 /* OpenTradesWidgetViews */ = {
+			isa = PBXGroup;
+			children = (
+				80DF51EE15CBFB4700DB1EC4 /* OpenTradesViewOne.xib */,
+			);
+			name = OpenTradesWidgetViews;
+			sourceTree = "<group>";
+		};
+		80DF51E815CBFA6000DB1EC4 /* AnalysisWidgetViews */ = {
+			isa = PBXGroup;
+			children = (
+				80DF51F315CBFBBC00DB1EC4 /* AnalysisViewOne.xib */,
+			);
+			name = AnalysisWidgetViews;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8042882815CA76BB008C718D /* VCContainmentTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8042884715CA76BB008C718D /* Build configuration list for PBXNativeTarget "VCContainmentTest" */;
+			buildPhases = (
+				8042882515CA76BB008C718D /* Sources */,
+				8042882615CA76BB008C718D /* Frameworks */,
+				8042882715CA76BB008C718D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VCContainmentTest;
+			productName = VCContainmentTest;
+			productReference = 8042882915CA76BB008C718D /* VCContainmentTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8042882015CA76BB008C718D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AF;
+				LastUpgradeCheck = 0440;
+			};
+			buildConfigurationList = 8042882315CA76BB008C718D /* Build configuration list for PBXProject "VCContainmentTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8042881E15CA76BB008C718D;
+			productRefGroup = 8042882A15CA76BB008C718D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8042882815CA76BB008C718D /* VCContainmentTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8042882715CA76BB008C718D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8042883815CA76BB008C718D /* InfoPlist.strings in Resources */,
+				8042884115CA76BB008C718D /* MainStoryboard.storyboard in Resources */,
+				8042885715CA7E0C008C718D /* ipad_background.png in Resources */,
+				8042885B15CA8267008C718D /* ipad_gradient.png in Resources */,
+				80DF51DA15CBC84500DB1EC4 /* bar_logo.png in Resources */,
+				80DF51DD15CBF12400DB1EC4 /* PortfolioViewOne.xib in Resources */,
+				80DF51E015CBF15400DB1EC4 /* PortfolioViewTwo.xib in Resources */,
+				80DF51E215CBF16700DB1EC4 /* PortfolioViewThree.xib in Resources */,
+				80DF51ED15CBFAFB00DB1EC4 /* FundsViewOne.xib in Resources */,
+				80DF51EF15CBFB4700DB1EC4 /* OpenTradesViewOne.xib in Resources */,
+				80DF51F415CBFBBC00DB1EC4 /* AnalysisViewOne.xib in Resources */,
+				80A0BEBB15CC095100DB852F /* FundsViewTwo.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8042882515CA76BB008C718D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8042885E15CA8509008C718D /* AFWidgetViewController.m in Sources */,
+				8042883A15CA76BB008C718D /* main.m in Sources */,
+				8042883E15CA76BB008C718D /* AFAppDelegate.m in Sources */,
+				8042884415CA76BB008C718D /* AFDashboardViewController.m in Sources */,
+				8042885215CA7BAF008C718D /* AFPortfolioViewController.m in Sources */,
+				80DF51D715CBC6FD00DB1EC4 /* AFLoginViewController.m in Sources */,
+				80DF51E515CBF75D00DB1EC4 /* AFPortfolioDetailedViewController.m in Sources */,
+				80DF51EB15CBFAA400DB1EC4 /* AFFundsViewController.m in Sources */,
+				80DF51F215CBFB6E00DB1EC4 /* AFOpenTradesViewController.m in Sources */,
+				80DF51F715CBFBE100DB1EC4 /* AFAnalysisViewController.m in Sources */,
+				80A0BEBF15CC09BB00DB852F /* AFFundsDetailedViewController.m in Sources */,
+				80A0BEC215CC0ABC00DB852F /* AFOpenTradesDetailedViewController.m in Sources */,
+				80A0BEC515CC0BBF00DB852F /* AFAnalysisDetailedViewController.m in Sources */,
+				80A0BEC815CC0D3A00DB852F /* AFDashboardSettingsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8042883615CA76BB008C718D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8042883715CA76BB008C718D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8042883F15CA76BB008C718D /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8042884015CA76BB008C718D /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8042884515CA76BB008C718D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		8042884615CA76BB008C718D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8042884815CA76BB008C718D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VCContainmentTest/VCContainmentTest-Prefix.pch";
+				INFOPLIST_FILE = "VCContainmentTest/VCContainmentTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8042884915CA76BB008C718D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VCContainmentTest/VCContainmentTest-Prefix.pch";
+				INFOPLIST_FILE = "VCContainmentTest/VCContainmentTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8042882315CA76BB008C718D /* Build configuration list for PBXProject "VCContainmentTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8042884515CA76BB008C718D /* Debug */,
+				8042884615CA76BB008C718D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8042884715CA76BB008C718D /* Build configuration list for PBXNativeTarget "VCContainmentTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8042884815CA76BB008C718D /* Debug */,
+				8042884915CA76BB008C718D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8042882015CA76BB008C718D /* Project object */;
+}

@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="2549" systemVersion="11E53" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" initialViewController="1t3-bu-16d">
+    <dependencies>
+        <deployment defaultVersion="1296" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1498"/>
+    </dependencies>
+    <scenes>
+        <!--Dashboard View Controller - Dashboard-->
+        <scene sceneID="4">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3" sceneMemberID="firstResponder"/>
+                <viewController storyboardIdentifier="DashboardViewController" id="2" customClass="AFDashboardViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5">
+                        <rect key="frame" x="0.0" y="64" width="1024" height="704"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" id="fxk-xG-EDJ">
+                                <rect key="frame" x="20" y="20" width="482" height="322"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" id="trY-8Z-zf1">
+                                <rect key="frame" x="522" y="20" width="482" height="322"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" id="m74-OF-cen">
+                                <rect key="frame" x="20" y="362" width="482" height="322"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" id="7vU-jr-SA0">
+                                <rect key="frame" x="522" y="362" width="482" height="322"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Dashboard" id="VU1-1o-CfO">
+                        <barButtonItem key="leftBarButtonItem" title="Logout" id="Lx3-Ig-0Yi">
+                            <connections>
+                                <action selector="clickLogout:" destination="2" id="ocX-BH-T7x"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" title="Settings" id="OzV-i0-8RF">
+                            <connections>
+                                <action selector="clickSettings:" destination="2" id="uc7-6J-h3q"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <connections>
+                        <outlet property="analysisView" destination="7vU-jr-SA0" id="I6u-yW-z1a"/>
+                        <outlet property="fundsView" destination="trY-8Z-zf1" id="fbt-Gt-UQD"/>
+                        <outlet property="openTradesView" destination="m74-OF-cen" id="FAr-CB-QUS"/>
+                        <outlet property="portfolioView" destination="fxk-xG-EDJ" id="f9A-4R-mxJ"/>
+                        <segue destination="Yiq-Qd-u0H" kind="push" identifier="DashboardToPortfolioDetails" id="sCP-al-Zxf"/>
+                        <segue destination="dhn-Jk-U5A" kind="push" identifier="DashboardToFundsDetails" id="gdi-G0-MZS"/>
+                        <segue destination="Ir6-Ub-juh" kind="push" identifier="DashboardToOpenTradesDetails" id="0nz-VQ-wuh"/>
+                        <segue destination="rss-gf-aDC" kind="push" identifier="DashboardToAnalysisDetails" id="gni-iz-0bW"/>
+                    </connections>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="1053" y="1459"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="VLe-aH-wrw">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gBp-K4-RWx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="dK7-lD-PJu" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="yT8-3s-bPB">
+                        <rect key="frame" x="0.0" y="64" width="703" height="704"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    </view>
+                    <toolbarItems/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="1490" y="3659"/>
+        </scene>
+        <!--Table View Controller - Root View Controller-->
+        <scene sceneID="fYM-TN-n19">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rF4-4X-LFG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tableViewController clearsSelectionOnViewWillAppear="NO" id="HzE-2q-OOG" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="94r-19-iqT">
+                        <rect key="frame" x="0.0" y="64" width="320" height="704"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="J93-bR-lKJ">
+                                <rect key="frame" x="0.0" y="22" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="HzE-2q-OOG" id="uig-yD-mIc"/>
+                            <outlet property="delegate" destination="HzE-2q-OOG" id="0M3-kS-jec"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Root View Controller" id="fy9-7r-grd"/>
+                </tableViewController>
+            </objects>
+            <point key="canvasLocation" x="1974" y="2759"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="9BX-fC-UmM">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sYd-EB-gOS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <navigationController id="5ra-FU-7UN" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="cBr-If-HTa">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="HzE-2q-OOG" kind="relationship" relationship="rootViewController" id="xgV-3M-YQY"/>
+                    </connections>
+                </navigationController>
+            </objects>
+            <point key="canvasLocation" x="1438" y="2759"/>
+        </scene>
+        <!--Dashboard Settings View Controller-->
+        <scene sceneID="kfV-9W-vOs">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NgG-ZD-gRU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <splitViewController id="QpR-K2-xu9" customClass="AFDashboardSettingsViewController" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <connections>
+                        <segue destination="5ra-FU-7UN" kind="relationship" relationship="masterViewController" id="6jK-0d-GNn"/>
+                        <segue destination="dK7-lD-PJu" kind="relationship" relationship="detailViewController" id="foD-5L-uWQ"/>
+                    </connections>
+                </splitViewController>
+            </objects>
+            <point key="canvasLocation" x="-34" y="3223"/>
+        </scene>
+        <!--Login View Controller-->
+        <scene sceneID="eVh-Rl-s7h">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pOb-Ru-gyc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tableViewController storyboardIdentifier="LoginViewController" id="glE-zF-1Ud" customClass="AFLoginViewController" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="4YV-B1-oVR">
+                        <rect key="frame" x="0.0" y="64" width="1024" height="704"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                        <sections>
+                            <tableViewSection id="hJx-TN-I5W">
+                                <cells>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="UkR-Sc-KeP">
+                                        <rect key="frame" x="0.0" y="0.0" width="1024" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="1024" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="cpT-ti-0Ha">
+                                                    <rect key="frame" x="400" y="10" width="80" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                </label>
+                                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="0Eh-SJ-NRD">
+                                                    <rect key="frame" x="488" y="6" width="150" height="31"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                </textField>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </view>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="Hlr-Ov-hO9">
+                                        <rect key="frame" x="0.0" y="44" width="1024" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="1024" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="FGO-tj-UUC">
+                                                    <rect key="frame" x="400" y="10" width="80" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                </label>
+                                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="eoK-eH-V0D">
+                                                    <rect key="frame" x="488" y="6" width="150" height="31"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                    <connections>
+                                                        <action selector="login:" destination="glE-zF-1Ud" eventType="editingDidEndOnExit" id="mrp-M7-Vto"/>
+                                                    </connections>
+                                                </textField>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </view>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="glE-zF-1Ud" id="dtt-ID-ITj"/>
+                            <outlet property="delegate" destination="glE-zF-1Ud" id="Fy4-Qd-GCL"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="vHN-t4-er8"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <connections>
+                        <outlet property="cellLogin" destination="UkR-Sc-KeP" id="Zic-Ue-iY1"/>
+                        <outlet property="cellPassword" destination="Hlr-Ov-hO9" id="1gy-nf-N4j"/>
+                        <outlet property="loginLabel" destination="cpT-ti-0Ha" id="Ftg-pr-iJM"/>
+                        <outlet property="loginTextField" destination="0Eh-SJ-NRD" id="oBo-jj-b53"/>
+                        <outlet property="passwordLabel" destination="FGO-tj-UUC" id="pja-hU-uoQ"/>
+                        <outlet property="passwordTextField" destination="eoK-eH-V0D" id="7sm-v9-kLA"/>
+                        <segue destination="2" kind="push" identifier="LoginToDashboardSegue" id="ixT-WH-e78"/>
+                    </connections>
+                </tableViewController>
+            </objects>
+            <point key="canvasLocation" x="-355" y="1459"/>
+        </scene>
+        <!--Portfolio View Controller-->
+        <scene sceneID="QUG-Gm-TTE">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6Qj-Kh-han" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController storyboardIdentifier="PortfolioViewController" id="3lj-TK-qgx" customClass="AFPortfolioViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="TfW-Ul-yQJ">
+                        <rect key="frame" x="0.0" y="64" width="1024" height="704"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" hidesForSinglePage="YES" numberOfPages="3" id="Htj-gN-UZq">
+                                <rect key="frame" x="0.0" y="668" width="1024" height="36"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <action selector="changePage:" destination="3lj-TK-qgx" eventType="valueChanged" id="acF-v6-kI5"/>
+                                </connections>
+                            </pageControl>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" id="IIK-Qi-HF2">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="704"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <connections>
+                                    <outlet property="delegate" destination="3lj-TK-qgx" id="Aqc-Cm-ADB"/>
+                                </connections>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="EWg-rY-VRH"/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <connections>
+                        <outlet property="pageControl" destination="Htj-gN-UZq" id="3aA-Ed-LU4"/>
+                        <outlet property="scrollView" destination="IIK-Qi-HF2" id="aBZ-Y2-tY0"/>
+                    </connections>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="-155" y="-950"/>
+        </scene>
+        <!--Funds View Controller-->
+        <scene sceneID="ntG-sg-RXh">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1hI-L3-5J3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController storyboardIdentifier="FundsViewController" id="4nm-oC-w1R" customClass="AFFundsViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="krq-7P-94n">
+                        <rect key="frame" x="0.0" y="64" width="1024" height="704"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" hidesForSinglePage="YES" numberOfPages="3" id="qLK-gg-3u4">
+                                <rect key="frame" x="0.0" y="668" width="1024" height="36"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                            </pageControl>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="2Vl-mb-fxN">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="704"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <connections>
+                                    <outlet property="delegate" destination="4nm-oC-w1R" id="i8M-ej-5P7"/>
+                                </connections>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    </view>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <connections>
+                        <outlet property="pageControl" destination="qLK-gg-3u4" id="TTV-9D-J9E"/>
+                        <outlet property="scrollView" destination="2Vl-mb-fxN" id="hXj-4w-ndW"/>
+                    </connections>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="1070" y="-950"/>
+        </scene>
+        <!--Open Trades View Controller-->
+        <scene sceneID="pu3-7b-k9o">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Jbb-Ge-O58" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController storyboardIdentifier="OpenTradesViewController" id="1aL-4U-6iS" customClass="AFOpenTradesViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="dZy-Uc-sad">
+                        <rect key="frame" x="0.0" y="64" width="1024" height="704"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" hidesForSinglePage="YES" numberOfPages="3" id="uLk-2L-VpP">
+                                <rect key="frame" x="0.0" y="668" width="1024" height="36"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                            </pageControl>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="PXj-m4-fol">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="704"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <connections>
+                                    <outlet property="delegate" destination="1aL-4U-6iS" id="1HN-uo-3Uz"/>
+                                </connections>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    </view>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <connections>
+                        <outlet property="pageControl" destination="uLk-2L-VpP" id="cjc-8b-R7l"/>
+                        <outlet property="scrollView" destination="PXj-m4-fol" id="GGX-fY-vWL"/>
+                    </connections>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="-155" y="34"/>
+        </scene>
+        <!--Analysis View Controller-->
+        <scene sceneID="497-1Q-e0h">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2ON-nN-GAm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController storyboardIdentifier="AnalysisViewController" id="6mj-a9-86m" customClass="AFAnalysisViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bFG-yg-rhT">
+                        <rect key="frame" x="0.0" y="64" width="1024" height="704"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" hidesForSinglePage="YES" numberOfPages="3" id="fmg-EQ-lLj">
+                                <rect key="frame" x="0.0" y="668" width="1024" height="36"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                            </pageControl>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="sbg-Nc-Dja">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="704"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <connections>
+                                    <outlet property="delegate" destination="6mj-a9-86m" id="52k-cy-U9L"/>
+                                </connections>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    </view>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <connections>
+                        <outlet property="pageControl" destination="fmg-EQ-lLj" id="7QE-lh-ubS"/>
+                        <outlet property="scrollView" destination="sbg-Nc-Dja" id="Lzg-c4-z4S"/>
+                    </connections>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="1070" y="34"/>
+        </scene>
+        <!--Portfolio Detailed View Controller - Portfolio Details-->
+        <scene sceneID="upX-Dy-iiy">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="L3n-JN-b1a" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController storyboardIdentifier="PortfolioDetailedViewController" id="Yiq-Qd-u0H" customClass="AFPortfolioDetailedViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="7Y3-PF-aX9">
+                        <rect key="frame" x="0.0" y="64" width="1024" height="704"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Portfolio Details" id="OzX-qy-CdG"/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="2938" y="34"/>
+        </scene>
+        <!--Funds Detailed View Controller - Funds Details-->
+        <scene sceneID="C6N-rt-1pn">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Mf5-Ru-OiA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController storyboardIdentifier="FundsDetailedViewController" id="dhn-Jk-U5A" customClass="AFFundsDetailedViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="fDc-1e-IVj">
+                        <rect key="frame" x="0.0" y="64" width="1024" height="704"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Funds Details" id="bWt-2N-tDW"/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="2938" y="966"/>
+        </scene>
+        <!--Open Trades Detailed View Controller - Open Trades Details-->
+        <scene sceneID="Q8V-rb-zBo">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cG5-aI-Fyl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController storyboardIdentifier="OpenTradesDetailedViewController" id="Ir6-Ub-juh" customClass="AFOpenTradesDetailedViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="tOH-Cg-rZI">
+                        <rect key="frame" x="0.0" y="64" width="1024" height="704"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Open Trades Details" id="SqA-1a-5be"/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="2938" y="1898"/>
+        </scene>
+        <!--Analysis Detailed View Controller - Analysis Details-->
+        <scene sceneID="pRN-w8-lOX">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bj4-tJ-NcU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="rss-gf-aDC" customClass="AFAnalysisDetailedViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="PuU-m1-apz">
+                        <rect key="frame" x="0.0" y="64" width="1024" height="704"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Analysis Details" id="Jl5-rB-Xof"/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="2938" y="2832"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Kd3-5h-MSc">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rqS-3D-ePi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <navigationController id="1t3-bu-16d" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="eVb-DG-Rou">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="glE-zF-1Ud" kind="relationship" relationship="rootViewController" id="O3i-Rl-JrK"/>
+                    </connections>
+                </navigationController>
+            </objects>
+            <point key="canvasLocation" x="-1753" y="1459"/>
+        </scene>
+    </scenes>
+    <classes>
+        <class className="AFAnalysisDetailedViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/AFAnalysisDetailedViewController.h"/>
+        </class>
+        <class className="AFAnalysisViewController" superclassName="AFWidgetViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/AFAnalysisViewController.h"/>
+        </class>
+        <class className="AFDashboardSettingsViewController" superclassName="UISplitViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/AFDashboardSettingsViewController.h"/>
+        </class>
+        <class className="AFDashboardViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/AFDashboardViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="clickLogout:"/>
+                <relationship kind="action" name="clickSettings:"/>
+                <relationship kind="outlet" name="analysisView" candidateClass="UIView"/>
+                <relationship kind="outlet" name="fundsView" candidateClass="UIView"/>
+                <relationship kind="outlet" name="openTradesView" candidateClass="UIView"/>
+                <relationship kind="outlet" name="portfolioView" candidateClass="UIView"/>
+            </relationships>
+        </class>
+        <class className="AFFundsDetailedViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/AFFundsDetailedViewController.h"/>
+        </class>
+        <class className="AFFundsViewController" superclassName="AFWidgetViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/AFFundsViewController.h"/>
+        </class>
+        <class className="AFLoginViewController" superclassName="UITableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/AFLoginViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="login:"/>
+                <relationship kind="outlet" name="cellLogin" candidateClass="UITableViewCell"/>
+                <relationship kind="outlet" name="cellPassword" candidateClass="UITableViewCell"/>
+                <relationship kind="outlet" name="loginLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="loginTextField" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="passwordLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="passwordTextField" candidateClass="UITextField"/>
+            </relationships>
+        </class>
+        <class className="AFOpenTradesDetailedViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/AFOpenTradesDetailedViewController.h"/>
+        </class>
+        <class className="AFOpenTradesViewController" superclassName="AFWidgetViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/AFOpenTradesViewController.h"/>
+        </class>
+        <class className="AFPortfolioDetailedViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/AFPortfolioDetailedViewController.h"/>
+        </class>
+        <class className="AFPortfolioViewController" superclassName="AFWidgetViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/AFPortfolioViewController.h"/>
+        </class>
+        <class className="AFWidgetViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/AFWidgetViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="changePage:"/>
+                <relationship kind="outlet" name="pageControl" candidateClass="UIPageControl"/>
+                <relationship kind="outlet" name="scrollView" candidateClass="UIScrollView"/>
+            </relationships>
+        </class>
+    </classes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar" statusBarStyle="blackTranslucent"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>

@@ -20,6 +20,69 @@
 		8042885915CA8181008C718D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8042885815CA8181008C718D /* QuartzCore.framework */; };
 		8042885B15CA8267008C718D /* ipad_gradient.png in Resources */ = {isa = PBXBuildFile; fileRef = 8042885A15CA8267008C718D /* ipad_gradient.png */; };
 		8042885E15CA8509008C718D /* AFWidgetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8042885D15CA84FD008C718D /* AFWidgetViewController.m */; };
+		8044D84115D0F83E00424E01 /* AFSettingsMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8044D84015D0F83E00424E01 /* AFSettingsMasterViewController.m */; };
+		8044D84615D0F86C00424E01 /* AFSettingsDetailedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8044D84515D0F86C00424E01 /* AFSettingsDetailedViewController.m */; };
+		8044D85215D112D800424E01 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8044D85115D112D800424E01 /* CoreText.framework */; };
+		8044D8CD15D1133500424E01 /* Anchor.m in Sources */ = {isa = PBXBuildFile; fileRef = 8044D85615D1133500424E01 /* Anchor.m */; };
+		8044D8CE15D1133500424E01 /* AnchorInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 8044D85915D1133500424E01 /* AnchorInfo.m */; };
+		8044D8CF15D1133500424E01 /* CustomBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 8044D85C15D1133500424E01 /* CustomBox.m */; };
+		8044D8D015D1133500424E01 /* MIM_MathClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 8044D85E15D1133500424E01 /* MIM_MathClass.m */; };
+		8044D8D115D1133500424E01 /* MIMFloatingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8044D86015D1133500424E01 /* MIMFloatingView.m */; };
+		8044D8D215D1133500424E01 /* MIMMeter.m in Sources */ = {isa = PBXBuildFile; fileRef = 8044D86215D1133500424E01 /* MIMMeter.m */; };
+		8044D8D315D1133500424E01 /* MIMProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 8044D86415D1133500424E01 /* MIMProperties.m */; };
+		8044D8D415D1133500424E01 /* PageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 8044D86615D1133500424E01 /* PageControl.m */; };
+		8044D8D515D1133500424E01 /* XAxisBand.m in Sources */ = {isa = PBXBuildFile; fileRef = 8044D86815D1133500424E01 /* XAxisBand.m */; };
+		8044D8D615D1133500424E01 /* XAxisLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8044D86A15D1133500424E01 /* XAxisLabel.m */; };
+		8044D8D715D1133500424E01 /* YAxisBand.m in Sources */ = {isa = PBXBuildFile; fileRef = 8044D86C15D1133500424E01 /* YAxisBand.m */; };
+		8044D8D815D1133500424E01 /* BarInfoBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 8044D87015D1133500424E01 /* BarInfoBox.m */; };
+		8044D8D915D1133500424E01 /* BarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8044D87215D1133500424E01 /* BarView.m */; };
+		8044D8DA15D1133500424E01 /* MIMBarGraph.m in Sources */ = {isa = PBXBuildFile; fileRef = 8044D87415D1133500424E01 /* MIMBarGraph.m */; };
+		8044D8DB15D1133500424E01 /* Cluster.m in Sources */ = {isa = PBXBuildFile; fileRef = 8044D87715D1133500424E01 /* Cluster.m */; };
+		8044D8DC15D1133500424E01 /* ClusterGraph.m in Sources */ = {isa = PBXBuildFile; fileRef = 8044D87915D1133500424E01 /* ClusterGraph.m */; };
+		8044D8DD15D1133500424E01 /* MIMColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 8044D87D15D1133500424E01 /* MIMColor.m */; };
+		8044D8DE15D1133500424E01 /* MIMColorClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 8044D87F15D1133500424E01 /* MIMColorClass.m */; };
+		8044D8DF15D1133500424E01 /* 2DFragmentedDoughNut.m in Sources */ = {isa = PBXBuildFile; fileRef = 8044D88215D1133500424E01 /* 2DFragmentedDoughNut.m */; };
+		8044D8E015D1133500424E01 /* DoughtNutFragmentTitle.m in Sources */ = {isa = PBXBuildFile; fileRef = 8044D88415D1133500424E01 /* DoughtNutFragmentTitle.m */; };
+		8044D8E115D1133500424E01 /* GaugeGraph.m in Sources */ = {isa = PBXBuildFile; fileRef = 8044D88815D1133500424E01 /* GaugeGraph.m */; };
+		8044D8E215D1133500424E01 /* LineInfoBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 8044D88C15D1133500424E01 /* LineInfoBox.m */; };
+		8044D8E315D1133500424E01 /* lines.png in Resources */ = {isa = PBXBuildFile; fileRef = 8044D88D15D1133500424E01 /* lines.png */; };
+		8044D8E415D1133500424E01 /* lines1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8044D88E15D1133500424E01 /* lines1.png */; };
+		8044D8E515D1133500424E01 /* LineScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8044D89015D1133500424E01 /* LineScrollView.m */; };
+		8044D8E615D1133500424E01 /* MIMLineGraph.m in Sources */ = {isa = PBXBuildFile; fileRef = 8044D89215D1133500424E01 /* MIMLineGraph.m */; };
+		8044D8E715D1133500424E01 /* MultiLineLongGraph.m in Sources */ = {isa = PBXBuildFile; fileRef = 8044D89415D1133500424E01 /* MultiLineLongGraph.m */; };
+		8044D8E815D1133500424E01 /* BasicPie.m in Sources */ = {isa = PBXBuildFile; fileRef = 8044D89715D1133500424E01 /* BasicPie.m */; };
+		8044D8E915D1133500424E01 /* BasicPieChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 8044D89915D1133500424E01 /* BasicPieChart.m */; };
+		8044D8EA15D1133500424E01 /* BasicPieChartSample.png in Resources */ = {isa = PBXBuildFile; fileRef = 8044D89A15D1133500424E01 /* BasicPieChartSample.png */; };
+		8044D8EB15D1133500424E01 /* BevelPieChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 8044D89C15D1133500424E01 /* BevelPieChart.m */; };
+		8044D8EC15D1133500424E01 /* BevelPieChart.png in Resources */ = {isa = PBXBuildFile; fileRef = 8044D89D15D1133500424E01 /* BevelPieChart.png */; };
+		8044D8ED15D1133500424E01 /* BiTransPieChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 8044D89F15D1133500424E01 /* BiTransPieChart.m */; };
+		8044D8EE15D1133500424E01 /* BiTransPieCHartSample.png in Resources */ = {isa = PBXBuildFile; fileRef = 8044D8A015D1133500424E01 /* BiTransPieCHartSample.png */; };
+		8044D8EF15D1133500424E01 /* DefaultInfoBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 8044D8A215D1133500424E01 /* DefaultInfoBox.m */; };
+		8044D8F015D1133500424E01 /* DefaultPopOverForPieChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 8044D8A415D1133500424E01 /* DefaultPopOverForPieChart.m */; };
+		8044D8F115D1133500424E01 /* DetailPopOverStyle2.m in Sources */ = {isa = PBXBuildFile; fileRef = 8044D8A615D1133500424E01 /* DetailPopOverStyle2.m */; };
+		8044D8F215D1133500424E01 /* InfoBoxStyle1.m in Sources */ = {isa = PBXBuildFile; fileRef = 8044D8A815D1133500424E01 /* InfoBoxStyle1.m */; };
+		8044D8F315D1133500424E01 /* InfoBoxStyle2.m in Sources */ = {isa = PBXBuildFile; fileRef = 8044D8AA15D1133500424E01 /* InfoBoxStyle2.m */; };
+		8044D8F415D1133500424E01 /* layeredpiechart.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8044D8AC15D1133500424E01 /* layeredpiechart.jpg */; };
+		8044D8F515D1133500424E01 /* LayeredPieChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 8044D8AD15D1133500424E01 /* LayeredPieChart.m */; };
+		8044D8F615D1133500424E01 /* LeftTriangleIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8044D8AE15D1133500424E01 /* LeftTriangleIcon.png */; };
+		8044D8F715D1133500424E01 /* LeftTriangleIconBlack.png in Resources */ = {isa = PBXBuildFile; fileRef = 8044D8AF15D1133500424E01 /* LeftTriangleIconBlack.png */; };
+		8044D8F815D1133500424E01 /* MIMPieChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 8044D8B115D1133500424E01 /* MIMPieChart.m */; };
+		8044D8F915D1133500424E01 /* OthersPart1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8044D8B315D1133500424E01 /* OthersPart1.png */; };
+		8044D8FA15D1133500424E01 /* otherspart2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8044D8B415D1133500424E01 /* otherspart2.png */; };
+		8044D8FB15D1133500424E01 /* OthersPieChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 8044D8B615D1133500424E01 /* OthersPieChart.m */; };
+		8044D8FC15D1133500424E01 /* padded_pie_chart.png in Resources */ = {isa = PBXBuildFile; fileRef = 8044D8B715D1133500424E01 /* padded_pie_chart.png */; };
+		8044D8FD15D1133500424E01 /* PaddedPieChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 8044D8B915D1133500424E01 /* PaddedPieChart.m */; };
+		8044D8FE15D1133500424E01 /* PermanentScroller.m in Sources */ = {isa = PBXBuildFile; fileRef = 8044D8BB15D1133500424E01 /* PermanentScroller.m */; };
+		8044D8FF15D1133500424E01 /* pie_pop_over_gradient.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8044D8BC15D1133500424E01 /* pie_pop_over_gradient.jpg */; };
+		8044D90015D1133500424E01 /* PieBubble.m in Sources */ = {isa = PBXBuildFile; fileRef = 8044D8BE15D1133500424E01 /* PieBubble.m */; };
+		8044D90115D1133500424E01 /* RightTriangleIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8044D8BF15D1133500424E01 /* RightTriangleIcon.png */; };
+		8044D90215D1133500424E01 /* RightTriangleIconBlack.png in Resources */ = {isa = PBXBuildFile; fileRef = 8044D8C015D1133500424E01 /* RightTriangleIconBlack.png */; };
+		8044D90315D1133500424E01 /* ScrollViewSubClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 8044D8C215D1133500424E01 /* ScrollViewSubClass.m */; };
+		8044D90415D1133500424E01 /* sectioned_pie_chart.png in Resources */ = {isa = PBXBuildFile; fileRef = 8044D8C315D1133500424E01 /* sectioned_pie_chart.png */; };
+		8044D90515D1133500424E01 /* SectionedPieChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 8044D8C515D1133500424E01 /* SectionedPieChart.m */; };
+		8044D90615D1133500424E01 /* trophy.png in Resources */ = {isa = PBXBuildFile; fileRef = 8044D8C615D1133500424E01 /* trophy.png */; };
+		8044D90715D1133500424E01 /* MIMWallGraph.m in Sources */ = {isa = PBXBuildFile; fileRef = 8044D8C915D1133500424E01 /* MIMWallGraph.m */; };
+		8044D90815D1133500424E01 /* MultiWallLongGraph.m in Sources */ = {isa = PBXBuildFile; fileRef = 8044D8CB15D1133500424E01 /* MultiWallLongGraph.m */; };
 		80A0BEBB15CC095100DB852F /* FundsViewTwo.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80A0BEBA15CC095100DB852F /* FundsViewTwo.xib */; };
 		80A0BEBF15CC09BB00DB852F /* AFFundsDetailedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80A0BEBE15CC09BB00DB852F /* AFFundsDetailedViewController.m */; };
 		80A0BEC215CC0ABC00DB852F /* AFOpenTradesDetailedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80A0BEC115CC0ABC00DB852F /* AFOpenTradesDetailedViewController.m */; };
@@ -59,6 +122,123 @@
 		8042885815CA8181008C718D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		8042885A15CA8267008C718D /* ipad_gradient.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ipad_gradient.png; sourceTree = "<group>"; };
 		8042885D15CA84FD008C718D /* AFWidgetViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AFWidgetViewController.m; path = VCContainmentTest/AFWidgetViewController.m; sourceTree = "<group>"; };
+		8044D83F15D0F83E00424E01 /* AFSettingsMasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFSettingsMasterViewController.h; path = VCContainmentTest/AFSettingsMasterViewController.h; sourceTree = "<group>"; };
+		8044D84015D0F83E00424E01 /* AFSettingsMasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFSettingsMasterViewController.m; path = VCContainmentTest/AFSettingsMasterViewController.m; sourceTree = "<group>"; };
+		8044D84415D0F86C00424E01 /* AFSettingsDetailedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSettingsDetailedViewController.h; sourceTree = "<group>"; };
+		8044D84515D0F86C00424E01 /* AFSettingsDetailedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSettingsDetailedViewController.m; sourceTree = "<group>"; };
+		8044D85115D112D800424E01 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		8044D85515D1133500424E01 /* Anchor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Anchor.h; sourceTree = "<group>"; };
+		8044D85615D1133500424E01 /* Anchor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Anchor.m; sourceTree = "<group>"; };
+		8044D85715D1133500424E01 /* AnchorDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnchorDelegate.h; sourceTree = "<group>"; };
+		8044D85815D1133500424E01 /* AnchorInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnchorInfo.h; sourceTree = "<group>"; };
+		8044D85915D1133500424E01 /* AnchorInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnchorInfo.m; sourceTree = "<group>"; };
+		8044D85A15D1133500424E01 /* Constant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
+		8044D85B15D1133500424E01 /* CustomBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomBox.h; sourceTree = "<group>"; };
+		8044D85C15D1133500424E01 /* CustomBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomBox.m; sourceTree = "<group>"; };
+		8044D85D15D1133500424E01 /* MIM_MathClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIM_MathClass.h; sourceTree = "<group>"; };
+		8044D85E15D1133500424E01 /* MIM_MathClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIM_MathClass.m; sourceTree = "<group>"; };
+		8044D85F15D1133500424E01 /* MIMFloatingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIMFloatingView.h; sourceTree = "<group>"; };
+		8044D86015D1133500424E01 /* MIMFloatingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIMFloatingView.m; sourceTree = "<group>"; };
+		8044D86115D1133500424E01 /* MIMMeter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIMMeter.h; sourceTree = "<group>"; };
+		8044D86215D1133500424E01 /* MIMMeter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIMMeter.m; sourceTree = "<group>"; };
+		8044D86315D1133500424E01 /* MIMProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIMProperties.h; sourceTree = "<group>"; };
+		8044D86415D1133500424E01 /* MIMProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIMProperties.m; sourceTree = "<group>"; };
+		8044D86515D1133500424E01 /* PageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageControl.h; sourceTree = "<group>"; };
+		8044D86615D1133500424E01 /* PageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageControl.m; sourceTree = "<group>"; };
+		8044D86715D1133500424E01 /* XAxisBand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XAxisBand.h; sourceTree = "<group>"; };
+		8044D86815D1133500424E01 /* XAxisBand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XAxisBand.m; sourceTree = "<group>"; };
+		8044D86915D1133500424E01 /* XAxisLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XAxisLabel.h; sourceTree = "<group>"; };
+		8044D86A15D1133500424E01 /* XAxisLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XAxisLabel.m; sourceTree = "<group>"; };
+		8044D86B15D1133500424E01 /* YAxisBand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YAxisBand.h; sourceTree = "<group>"; };
+		8044D86C15D1133500424E01 /* YAxisBand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YAxisBand.m; sourceTree = "<group>"; };
+		8044D86E15D1133500424E01 /* BarGraphDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BarGraphDelegate.h; sourceTree = "<group>"; };
+		8044D86F15D1133500424E01 /* BarInfoBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BarInfoBox.h; sourceTree = "<group>"; };
+		8044D87015D1133500424E01 /* BarInfoBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BarInfoBox.m; sourceTree = "<group>"; };
+		8044D87115D1133500424E01 /* BarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BarView.h; sourceTree = "<group>"; };
+		8044D87215D1133500424E01 /* BarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BarView.m; sourceTree = "<group>"; };
+		8044D87315D1133500424E01 /* MIMBarGraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIMBarGraph.h; sourceTree = "<group>"; };
+		8044D87415D1133500424E01 /* MIMBarGraph.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIMBarGraph.m; sourceTree = "<group>"; };
+		8044D87615D1133500424E01 /* Cluster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cluster.h; sourceTree = "<group>"; };
+		8044D87715D1133500424E01 /* Cluster.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cluster.m; sourceTree = "<group>"; };
+		8044D87815D1133500424E01 /* ClusterGraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClusterGraph.h; sourceTree = "<group>"; };
+		8044D87915D1133500424E01 /* ClusterGraph.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClusterGraph.m; sourceTree = "<group>"; };
+		8044D87A15D1133500424E01 /* ClusterGraphDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClusterGraphDelegate.h; sourceTree = "<group>"; };
+		8044D87C15D1133500424E01 /* MIMColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIMColor.h; sourceTree = "<group>"; };
+		8044D87D15D1133500424E01 /* MIMColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIMColor.m; sourceTree = "<group>"; };
+		8044D87E15D1133500424E01 /* MIMColorClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIMColorClass.h; sourceTree = "<group>"; };
+		8044D87F15D1133500424E01 /* MIMColorClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIMColorClass.m; sourceTree = "<group>"; };
+		8044D88115D1133500424E01 /* 2DFragmentedDoughNut.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = 2DFragmentedDoughNut.h; sourceTree = "<group>"; };
+		8044D88215D1133500424E01 /* 2DFragmentedDoughNut.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = 2DFragmentedDoughNut.m; sourceTree = "<group>"; };
+		8044D88315D1133500424E01 /* DoughtNutFragmentTitle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoughtNutFragmentTitle.h; sourceTree = "<group>"; };
+		8044D88415D1133500424E01 /* DoughtNutFragmentTitle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoughtNutFragmentTitle.m; sourceTree = "<group>"; };
+		8044D88515D1133500424E01 /* FragmentedDoughNutDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FragmentedDoughNutDelegate.h; sourceTree = "<group>"; };
+		8044D88715D1133500424E01 /* GaugeGraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GaugeGraph.h; sourceTree = "<group>"; };
+		8044D88815D1133500424E01 /* GaugeGraph.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GaugeGraph.m; sourceTree = "<group>"; };
+		8044D88A15D1133500424E01 /* LineGraphDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineGraphDelegate.h; sourceTree = "<group>"; };
+		8044D88B15D1133500424E01 /* LineInfoBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineInfoBox.h; sourceTree = "<group>"; };
+		8044D88C15D1133500424E01 /* LineInfoBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineInfoBox.m; sourceTree = "<group>"; };
+		8044D88D15D1133500424E01 /* lines.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lines.png; sourceTree = "<group>"; };
+		8044D88E15D1133500424E01 /* lines1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lines1.png; sourceTree = "<group>"; };
+		8044D88F15D1133500424E01 /* LineScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineScrollView.h; sourceTree = "<group>"; };
+		8044D89015D1133500424E01 /* LineScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineScrollView.m; sourceTree = "<group>"; };
+		8044D89115D1133500424E01 /* MIMLineGraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIMLineGraph.h; sourceTree = "<group>"; };
+		8044D89215D1133500424E01 /* MIMLineGraph.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIMLineGraph.m; sourceTree = "<group>"; };
+		8044D89315D1133500424E01 /* MultiLineLongGraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiLineLongGraph.h; sourceTree = "<group>"; };
+		8044D89415D1133500424E01 /* MultiLineLongGraph.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiLineLongGraph.m; sourceTree = "<group>"; };
+		8044D89615D1133500424E01 /* BasicPie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicPie.h; sourceTree = "<group>"; };
+		8044D89715D1133500424E01 /* BasicPie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicPie.m; sourceTree = "<group>"; };
+		8044D89815D1133500424E01 /* BasicPieChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicPieChart.h; sourceTree = "<group>"; };
+		8044D89915D1133500424E01 /* BasicPieChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicPieChart.m; sourceTree = "<group>"; };
+		8044D89A15D1133500424E01 /* BasicPieChartSample.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BasicPieChartSample.png; sourceTree = "<group>"; };
+		8044D89B15D1133500424E01 /* BevelPieChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BevelPieChart.h; sourceTree = "<group>"; };
+		8044D89C15D1133500424E01 /* BevelPieChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BevelPieChart.m; sourceTree = "<group>"; };
+		8044D89D15D1133500424E01 /* BevelPieChart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BevelPieChart.png; sourceTree = "<group>"; };
+		8044D89E15D1133500424E01 /* BiTransPieChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BiTransPieChart.h; sourceTree = "<group>"; };
+		8044D89F15D1133500424E01 /* BiTransPieChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BiTransPieChart.m; sourceTree = "<group>"; };
+		8044D8A015D1133500424E01 /* BiTransPieCHartSample.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BiTransPieCHartSample.png; sourceTree = "<group>"; };
+		8044D8A115D1133500424E01 /* DefaultInfoBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DefaultInfoBox.h; sourceTree = "<group>"; };
+		8044D8A215D1133500424E01 /* DefaultInfoBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DefaultInfoBox.m; sourceTree = "<group>"; };
+		8044D8A315D1133500424E01 /* DefaultPopOverForPieChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DefaultPopOverForPieChart.h; sourceTree = "<group>"; };
+		8044D8A415D1133500424E01 /* DefaultPopOverForPieChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DefaultPopOverForPieChart.m; sourceTree = "<group>"; };
+		8044D8A515D1133500424E01 /* DetailPopOverStyle2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailPopOverStyle2.h; sourceTree = "<group>"; };
+		8044D8A615D1133500424E01 /* DetailPopOverStyle2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailPopOverStyle2.m; sourceTree = "<group>"; };
+		8044D8A715D1133500424E01 /* InfoBoxStyle1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoBoxStyle1.h; sourceTree = "<group>"; };
+		8044D8A815D1133500424E01 /* InfoBoxStyle1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoBoxStyle1.m; sourceTree = "<group>"; };
+		8044D8A915D1133500424E01 /* InfoBoxStyle2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoBoxStyle2.h; sourceTree = "<group>"; };
+		8044D8AA15D1133500424E01 /* InfoBoxStyle2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoBoxStyle2.m; sourceTree = "<group>"; };
+		8044D8AB15D1133500424E01 /* LayeredPieChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayeredPieChart.h; sourceTree = "<group>"; };
+		8044D8AC15D1133500424E01 /* layeredpiechart.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = layeredpiechart.jpg; sourceTree = "<group>"; };
+		8044D8AD15D1133500424E01 /* LayeredPieChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LayeredPieChart.m; sourceTree = "<group>"; };
+		8044D8AE15D1133500424E01 /* LeftTriangleIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LeftTriangleIcon.png; sourceTree = "<group>"; };
+		8044D8AF15D1133500424E01 /* LeftTriangleIconBlack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LeftTriangleIconBlack.png; sourceTree = "<group>"; };
+		8044D8B015D1133500424E01 /* MIMPieChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIMPieChart.h; sourceTree = "<group>"; };
+		8044D8B115D1133500424E01 /* MIMPieChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIMPieChart.m; sourceTree = "<group>"; };
+		8044D8B215D1133500424E01 /* MIMPieChartDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIMPieChartDelegate.h; sourceTree = "<group>"; };
+		8044D8B315D1133500424E01 /* OthersPart1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = OthersPart1.png; sourceTree = "<group>"; };
+		8044D8B415D1133500424E01 /* otherspart2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = otherspart2.png; sourceTree = "<group>"; };
+		8044D8B515D1133500424E01 /* OthersPieChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OthersPieChart.h; sourceTree = "<group>"; };
+		8044D8B615D1133500424E01 /* OthersPieChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OthersPieChart.m; sourceTree = "<group>"; };
+		8044D8B715D1133500424E01 /* padded_pie_chart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = padded_pie_chart.png; sourceTree = "<group>"; };
+		8044D8B815D1133500424E01 /* PaddedPieChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaddedPieChart.h; sourceTree = "<group>"; };
+		8044D8B915D1133500424E01 /* PaddedPieChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaddedPieChart.m; sourceTree = "<group>"; };
+		8044D8BA15D1133500424E01 /* PermanentScroller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PermanentScroller.h; sourceTree = "<group>"; };
+		8044D8BB15D1133500424E01 /* PermanentScroller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PermanentScroller.m; sourceTree = "<group>"; };
+		8044D8BC15D1133500424E01 /* pie_pop_over_gradient.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pie_pop_over_gradient.jpg; sourceTree = "<group>"; };
+		8044D8BD15D1133500424E01 /* PieBubble.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PieBubble.h; sourceTree = "<group>"; };
+		8044D8BE15D1133500424E01 /* PieBubble.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PieBubble.m; sourceTree = "<group>"; };
+		8044D8BF15D1133500424E01 /* RightTriangleIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RightTriangleIcon.png; sourceTree = "<group>"; };
+		8044D8C015D1133500424E01 /* RightTriangleIconBlack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RightTriangleIconBlack.png; sourceTree = "<group>"; };
+		8044D8C115D1133500424E01 /* ScrollViewSubClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollViewSubClass.h; sourceTree = "<group>"; };
+		8044D8C215D1133500424E01 /* ScrollViewSubClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollViewSubClass.m; sourceTree = "<group>"; };
+		8044D8C315D1133500424E01 /* sectioned_pie_chart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sectioned_pie_chart.png; sourceTree = "<group>"; };
+		8044D8C415D1133500424E01 /* SectionedPieChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SectionedPieChart.h; sourceTree = "<group>"; };
+		8044D8C515D1133500424E01 /* SectionedPieChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SectionedPieChart.m; sourceTree = "<group>"; };
+		8044D8C615D1133500424E01 /* trophy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trophy.png; sourceTree = "<group>"; };
+		8044D8C815D1133500424E01 /* MIMWallGraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIMWallGraph.h; sourceTree = "<group>"; };
+		8044D8C915D1133500424E01 /* MIMWallGraph.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIMWallGraph.m; sourceTree = "<group>"; };
+		8044D8CA15D1133500424E01 /* MultiWallLongGraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiWallLongGraph.h; sourceTree = "<group>"; };
+		8044D8CB15D1133500424E01 /* MultiWallLongGraph.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiWallLongGraph.m; sourceTree = "<group>"; };
+		8044D8CC15D1133500424E01 /* WallGraphDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WallGraphDelegate.h; sourceTree = "<group>"; };
 		80A0BEBA15CC095100DB852F /* FundsViewTwo.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FundsViewTwo.xib; sourceTree = "<group>"; };
 		80A0BEBD15CC09BB00DB852F /* AFFundsDetailedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFFundsDetailedViewController.h; sourceTree = "<group>"; };
 		80A0BEBE15CC09BB00DB852F /* AFFundsDetailedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFFundsDetailedViewController.m; sourceTree = "<group>"; };
@@ -86,6 +266,8 @@
 		80DF51F315CBFBBC00DB1EC4 /* AnalysisViewOne.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AnalysisViewOne.xib; sourceTree = "<group>"; };
 		80DF51F515CBFBE100DB1EC4 /* AFAnalysisViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFAnalysisViewController.h; sourceTree = "<group>"; };
 		80DF51F615CBFBE100DB1EC4 /* AFAnalysisViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFAnalysisViewController.m; sourceTree = "<group>"; };
+		80E7285815D00142005928DD /* Canvas.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Canvas.h; sourceTree = "<group>"; };
+		80E7285915D00142005928DD /* Canvas.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Canvas.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +275,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8044D85215D112D800424E01 /* CoreText.framework in Frameworks */,
 				8042885915CA8181008C718D /* QuartzCore.framework in Frameworks */,
 				8042882E15CA76BB008C718D /* UIKit.framework in Frameworks */,
 				8042883015CA76BB008C718D /* Foundation.framework in Frameworks */,
@@ -106,6 +289,10 @@
 		8042881E15CA76BB008C718D = {
 			isa = PBXGroup;
 			children = (
+				8044D85315D1133500424E01 /* Lib Files */,
+				8044D84715D0F87B00424E01 /* Login */,
+				8044D84315D0F84400424E01 /* Settings */,
+				80E7285615D00134005928DD /* Canvas */,
 				80DF51E815CBFA6000DB1EC4 /* AnalysisWidgetViews */,
 				80DF51E715CBFA5100DB1EC4 /* OpenTradesWidgetViews */,
 				80DF51E615CBFA4500DB1EC4 /* FundsWidgetViews */,
@@ -128,6 +315,7 @@
 		8042882C15CA76BB008C718D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8044D85115D112D800424E01 /* CoreText.framework */,
 				8042885815CA8181008C718D /* QuartzCore.framework */,
 				8042882D15CA76BB008C718D /* UIKit.framework */,
 				8042882F15CA76BB008C718D /* Foundation.framework */,
@@ -164,32 +352,281 @@
 		8042885315CA7BB3008C718D /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				80DF51D515CBC6FD00DB1EC4 /* AFLoginViewController.h */,
-				80DF51D615CBC6FD00DB1EC4 /* AFLoginViewController.m */,
-				8042884215CA76BB008C718D /* AFDashboardViewController.h */,
-				8042884315CA76BB008C718D /* AFDashboardViewController.m */,
+				8044D84815D0F8AD00424E01 /* General */,
+				8044D84915D0F8C500424E01 /* Portfolio */,
+				8044D84A15D0F8CF00424E01 /* Funds */,
+				8044D84B15D0F8DA00424E01 /* OpenTrades */,
+				8044D84C15D0F8E800424E01 /* Analysis */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		8044D84315D0F84400424E01 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
 				80A0BEC615CC0D3A00DB852F /* AFDashboardSettingsViewController.h */,
 				80A0BEC715CC0D3A00DB852F /* AFDashboardSettingsViewController.m */,
+				8044D83F15D0F83E00424E01 /* AFSettingsMasterViewController.h */,
+				8044D84015D0F83E00424E01 /* AFSettingsMasterViewController.m */,
+				8044D84415D0F86C00424E01 /* AFSettingsDetailedViewController.h */,
+				8044D84515D0F86C00424E01 /* AFSettingsDetailedViewController.m */,
+			);
+			name = Settings;
+			sourceTree = "<group>";
+		};
+		8044D84715D0F87B00424E01 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				80DF51D515CBC6FD00DB1EC4 /* AFLoginViewController.h */,
+				80DF51D615CBC6FD00DB1EC4 /* AFLoginViewController.m */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		8044D84815D0F8AD00424E01 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				8042884215CA76BB008C718D /* AFDashboardViewController.h */,
+				8042884315CA76BB008C718D /* AFDashboardViewController.m */,
 				80DF51DB15CBD52000DB1EC4 /* AFWidgetViewController.h */,
 				8042885D15CA84FD008C718D /* AFWidgetViewController.m */,
+			);
+			name = General;
+			sourceTree = "<group>";
+		};
+		8044D84915D0F8C500424E01 /* Portfolio */ = {
+			isa = PBXGroup;
+			children = (
 				8042885015CA7BAF008C718D /* AFPortfolioViewController.h */,
 				8042885115CA7BAF008C718D /* AFPortfolioViewController.m */,
 				80DF51E315CBF75C00DB1EC4 /* AFPortfolioDetailedViewController.h */,
 				80DF51E415CBF75C00DB1EC4 /* AFPortfolioDetailedViewController.m */,
+			);
+			name = Portfolio;
+			sourceTree = "<group>";
+		};
+		8044D84A15D0F8CF00424E01 /* Funds */ = {
+			isa = PBXGroup;
+			children = (
 				80DF51E915CBFAA400DB1EC4 /* AFFundsViewController.h */,
 				80DF51EA15CBFAA400DB1EC4 /* AFFundsViewController.m */,
 				80A0BEBD15CC09BB00DB852F /* AFFundsDetailedViewController.h */,
 				80A0BEBE15CC09BB00DB852F /* AFFundsDetailedViewController.m */,
+			);
+			name = Funds;
+			sourceTree = "<group>";
+		};
+		8044D84B15D0F8DA00424E01 /* OpenTrades */ = {
+			isa = PBXGroup;
+			children = (
 				80DF51F015CBFB6E00DB1EC4 /* AFOpenTradesViewController.h */,
 				80DF51F115CBFB6E00DB1EC4 /* AFOpenTradesViewController.m */,
 				80A0BEC015CC0ABC00DB852F /* AFOpenTradesDetailedViewController.h */,
 				80A0BEC115CC0ABC00DB852F /* AFOpenTradesDetailedViewController.m */,
+			);
+			name = OpenTrades;
+			sourceTree = "<group>";
+		};
+		8044D84C15D0F8E800424E01 /* Analysis */ = {
+			isa = PBXGroup;
+			children = (
 				80DF51F515CBFBE100DB1EC4 /* AFAnalysisViewController.h */,
 				80DF51F615CBFBE100DB1EC4 /* AFAnalysisViewController.m */,
 				80A0BEC315CC0BBF00DB852F /* AFAnalysisDetailedViewController.h */,
 				80A0BEC415CC0BBF00DB852F /* AFAnalysisDetailedViewController.m */,
 			);
-			name = Controllers;
+			name = Analysis;
+			sourceTree = "<group>";
+		};
+		8044D85315D1133500424E01 /* Lib Files */ = {
+			isa = PBXGroup;
+			children = (
+				8044D85415D1133500424E01 /* Accessories */,
+				8044D86D15D1133500424E01 /* Bar Chart */,
+				8044D87515D1133500424E01 /* ClusterGraph */,
+				8044D87B15D1133500424E01 /* Colors */,
+				8044D88015D1133500424E01 /* FragmentedPieChart */,
+				8044D88615D1133500424E01 /* GaugeMeter */,
+				8044D88915D1133500424E01 /* Line Graph */,
+				8044D89515D1133500424E01 /* Pie Chart */,
+				8044D8C715D1133500424E01 /* Wall Graph */,
+			);
+			path = "Lib Files";
+			sourceTree = "<group>";
+		};
+		8044D85415D1133500424E01 /* Accessories */ = {
+			isa = PBXGroup;
+			children = (
+				8044D85515D1133500424E01 /* Anchor.h */,
+				8044D85615D1133500424E01 /* Anchor.m */,
+				8044D85715D1133500424E01 /* AnchorDelegate.h */,
+				8044D85815D1133500424E01 /* AnchorInfo.h */,
+				8044D85915D1133500424E01 /* AnchorInfo.m */,
+				8044D85A15D1133500424E01 /* Constant.h */,
+				8044D85B15D1133500424E01 /* CustomBox.h */,
+				8044D85C15D1133500424E01 /* CustomBox.m */,
+				8044D85D15D1133500424E01 /* MIM_MathClass.h */,
+				8044D85E15D1133500424E01 /* MIM_MathClass.m */,
+				8044D85F15D1133500424E01 /* MIMFloatingView.h */,
+				8044D86015D1133500424E01 /* MIMFloatingView.m */,
+				8044D86115D1133500424E01 /* MIMMeter.h */,
+				8044D86215D1133500424E01 /* MIMMeter.m */,
+				8044D86315D1133500424E01 /* MIMProperties.h */,
+				8044D86415D1133500424E01 /* MIMProperties.m */,
+				8044D86515D1133500424E01 /* PageControl.h */,
+				8044D86615D1133500424E01 /* PageControl.m */,
+				8044D86715D1133500424E01 /* XAxisBand.h */,
+				8044D86815D1133500424E01 /* XAxisBand.m */,
+				8044D86915D1133500424E01 /* XAxisLabel.h */,
+				8044D86A15D1133500424E01 /* XAxisLabel.m */,
+				8044D86B15D1133500424E01 /* YAxisBand.h */,
+				8044D86C15D1133500424E01 /* YAxisBand.m */,
+			);
+			path = Accessories;
+			sourceTree = "<group>";
+		};
+		8044D86D15D1133500424E01 /* Bar Chart */ = {
+			isa = PBXGroup;
+			children = (
+				8044D86E15D1133500424E01 /* BarGraphDelegate.h */,
+				8044D86F15D1133500424E01 /* BarInfoBox.h */,
+				8044D87015D1133500424E01 /* BarInfoBox.m */,
+				8044D87115D1133500424E01 /* BarView.h */,
+				8044D87215D1133500424E01 /* BarView.m */,
+				8044D87315D1133500424E01 /* MIMBarGraph.h */,
+				8044D87415D1133500424E01 /* MIMBarGraph.m */,
+			);
+			path = "Bar Chart";
+			sourceTree = "<group>";
+		};
+		8044D87515D1133500424E01 /* ClusterGraph */ = {
+			isa = PBXGroup;
+			children = (
+				8044D87615D1133500424E01 /* Cluster.h */,
+				8044D87715D1133500424E01 /* Cluster.m */,
+				8044D87815D1133500424E01 /* ClusterGraph.h */,
+				8044D87915D1133500424E01 /* ClusterGraph.m */,
+				8044D87A15D1133500424E01 /* ClusterGraphDelegate.h */,
+			);
+			path = ClusterGraph;
+			sourceTree = "<group>";
+		};
+		8044D87B15D1133500424E01 /* Colors */ = {
+			isa = PBXGroup;
+			children = (
+				8044D87C15D1133500424E01 /* MIMColor.h */,
+				8044D87D15D1133500424E01 /* MIMColor.m */,
+				8044D87E15D1133500424E01 /* MIMColorClass.h */,
+				8044D87F15D1133500424E01 /* MIMColorClass.m */,
+			);
+			path = Colors;
+			sourceTree = "<group>";
+		};
+		8044D88015D1133500424E01 /* FragmentedPieChart */ = {
+			isa = PBXGroup;
+			children = (
+				8044D88115D1133500424E01 /* 2DFragmentedDoughNut.h */,
+				8044D88215D1133500424E01 /* 2DFragmentedDoughNut.m */,
+				8044D88315D1133500424E01 /* DoughtNutFragmentTitle.h */,
+				8044D88415D1133500424E01 /* DoughtNutFragmentTitle.m */,
+				8044D88515D1133500424E01 /* FragmentedDoughNutDelegate.h */,
+			);
+			path = FragmentedPieChart;
+			sourceTree = "<group>";
+		};
+		8044D88615D1133500424E01 /* GaugeMeter */ = {
+			isa = PBXGroup;
+			children = (
+				8044D88715D1133500424E01 /* GaugeGraph.h */,
+				8044D88815D1133500424E01 /* GaugeGraph.m */,
+			);
+			path = GaugeMeter;
+			sourceTree = "<group>";
+		};
+		8044D88915D1133500424E01 /* Line Graph */ = {
+			isa = PBXGroup;
+			children = (
+				8044D88A15D1133500424E01 /* LineGraphDelegate.h */,
+				8044D88B15D1133500424E01 /* LineInfoBox.h */,
+				8044D88C15D1133500424E01 /* LineInfoBox.m */,
+				8044D88D15D1133500424E01 /* lines.png */,
+				8044D88E15D1133500424E01 /* lines1.png */,
+				8044D88F15D1133500424E01 /* LineScrollView.h */,
+				8044D89015D1133500424E01 /* LineScrollView.m */,
+				8044D89115D1133500424E01 /* MIMLineGraph.h */,
+				8044D89215D1133500424E01 /* MIMLineGraph.m */,
+				8044D89315D1133500424E01 /* MultiLineLongGraph.h */,
+				8044D89415D1133500424E01 /* MultiLineLongGraph.m */,
+			);
+			path = "Line Graph";
+			sourceTree = "<group>";
+		};
+		8044D89515D1133500424E01 /* Pie Chart */ = {
+			isa = PBXGroup;
+			children = (
+				8044D89615D1133500424E01 /* BasicPie.h */,
+				8044D89715D1133500424E01 /* BasicPie.m */,
+				8044D89815D1133500424E01 /* BasicPieChart.h */,
+				8044D89915D1133500424E01 /* BasicPieChart.m */,
+				8044D89A15D1133500424E01 /* BasicPieChartSample.png */,
+				8044D89B15D1133500424E01 /* BevelPieChart.h */,
+				8044D89C15D1133500424E01 /* BevelPieChart.m */,
+				8044D89D15D1133500424E01 /* BevelPieChart.png */,
+				8044D89E15D1133500424E01 /* BiTransPieChart.h */,
+				8044D89F15D1133500424E01 /* BiTransPieChart.m */,
+				8044D8A015D1133500424E01 /* BiTransPieCHartSample.png */,
+				8044D8A115D1133500424E01 /* DefaultInfoBox.h */,
+				8044D8A215D1133500424E01 /* DefaultInfoBox.m */,
+				8044D8A315D1133500424E01 /* DefaultPopOverForPieChart.h */,
+				8044D8A415D1133500424E01 /* DefaultPopOverForPieChart.m */,
+				8044D8A515D1133500424E01 /* DetailPopOverStyle2.h */,
+				8044D8A615D1133500424E01 /* DetailPopOverStyle2.m */,
+				8044D8A715D1133500424E01 /* InfoBoxStyle1.h */,
+				8044D8A815D1133500424E01 /* InfoBoxStyle1.m */,
+				8044D8A915D1133500424E01 /* InfoBoxStyle2.h */,
+				8044D8AA15D1133500424E01 /* InfoBoxStyle2.m */,
+				8044D8AB15D1133500424E01 /* LayeredPieChart.h */,
+				8044D8AC15D1133500424E01 /* layeredpiechart.jpg */,
+				8044D8AD15D1133500424E01 /* LayeredPieChart.m */,
+				8044D8AE15D1133500424E01 /* LeftTriangleIcon.png */,
+				8044D8AF15D1133500424E01 /* LeftTriangleIconBlack.png */,
+				8044D8B015D1133500424E01 /* MIMPieChart.h */,
+				8044D8B115D1133500424E01 /* MIMPieChart.m */,
+				8044D8B215D1133500424E01 /* MIMPieChartDelegate.h */,
+				8044D8B315D1133500424E01 /* OthersPart1.png */,
+				8044D8B415D1133500424E01 /* otherspart2.png */,
+				8044D8B515D1133500424E01 /* OthersPieChart.h */,
+				8044D8B615D1133500424E01 /* OthersPieChart.m */,
+				8044D8B715D1133500424E01 /* padded_pie_chart.png */,
+				8044D8B815D1133500424E01 /* PaddedPieChart.h */,
+				8044D8B915D1133500424E01 /* PaddedPieChart.m */,
+				8044D8BA15D1133500424E01 /* PermanentScroller.h */,
+				8044D8BB15D1133500424E01 /* PermanentScroller.m */,
+				8044D8BC15D1133500424E01 /* pie_pop_over_gradient.jpg */,
+				8044D8BD15D1133500424E01 /* PieBubble.h */,
+				8044D8BE15D1133500424E01 /* PieBubble.m */,
+				8044D8BF15D1133500424E01 /* RightTriangleIcon.png */,
+				8044D8C015D1133500424E01 /* RightTriangleIconBlack.png */,
+				8044D8C115D1133500424E01 /* ScrollViewSubClass.h */,
+				8044D8C215D1133500424E01 /* ScrollViewSubClass.m */,
+				8044D8C315D1133500424E01 /* sectioned_pie_chart.png */,
+				8044D8C415D1133500424E01 /* SectionedPieChart.h */,
+				8044D8C515D1133500424E01 /* SectionedPieChart.m */,
+				8044D8C615D1133500424E01 /* trophy.png */,
+			);
+			path = "Pie Chart";
+			sourceTree = "<group>";
+		};
+		8044D8C715D1133500424E01 /* Wall Graph */ = {
+			isa = PBXGroup;
+			children = (
+				8044D8C815D1133500424E01 /* MIMWallGraph.h */,
+				8044D8C915D1133500424E01 /* MIMWallGraph.m */,
+				8044D8CA15D1133500424E01 /* MultiWallLongGraph.h */,
+				8044D8CB15D1133500424E01 /* MultiWallLongGraph.m */,
+				8044D8CC15D1133500424E01 /* WallGraphDelegate.h */,
+			);
+			path = "Wall Graph";
 			sourceTree = "<group>";
 		};
 		80DF51DE15CBF13200DB1EC4 /* PortfolioWidgetViews */ = {
@@ -225,6 +662,15 @@
 				80DF51F315CBFBBC00DB1EC4 /* AnalysisViewOne.xib */,
 			);
 			name = AnalysisWidgetViews;
+			sourceTree = "<group>";
+		};
+		80E7285615D00134005928DD /* Canvas */ = {
+			isa = PBXGroup;
+			children = (
+				80E7285815D00142005928DD /* Canvas.h */,
+				80E7285915D00142005928DD /* Canvas.m */,
+			);
+			name = Canvas;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -290,6 +736,22 @@
 				80DF51EF15CBFB4700DB1EC4 /* OpenTradesViewOne.xib in Resources */,
 				80DF51F415CBFBBC00DB1EC4 /* AnalysisViewOne.xib in Resources */,
 				80A0BEBB15CC095100DB852F /* FundsViewTwo.xib in Resources */,
+				8044D8E315D1133500424E01 /* lines.png in Resources */,
+				8044D8E415D1133500424E01 /* lines1.png in Resources */,
+				8044D8EA15D1133500424E01 /* BasicPieChartSample.png in Resources */,
+				8044D8EC15D1133500424E01 /* BevelPieChart.png in Resources */,
+				8044D8EE15D1133500424E01 /* BiTransPieCHartSample.png in Resources */,
+				8044D8F415D1133500424E01 /* layeredpiechart.jpg in Resources */,
+				8044D8F615D1133500424E01 /* LeftTriangleIcon.png in Resources */,
+				8044D8F715D1133500424E01 /* LeftTriangleIconBlack.png in Resources */,
+				8044D8F915D1133500424E01 /* OthersPart1.png in Resources */,
+				8044D8FA15D1133500424E01 /* otherspart2.png in Resources */,
+				8044D8FC15D1133500424E01 /* padded_pie_chart.png in Resources */,
+				8044D8FF15D1133500424E01 /* pie_pop_over_gradient.jpg in Resources */,
+				8044D90115D1133500424E01 /* RightTriangleIcon.png in Resources */,
+				8044D90215D1133500424E01 /* RightTriangleIconBlack.png in Resources */,
+				8044D90415D1133500424E01 /* sectioned_pie_chart.png in Resources */,
+				8044D90615D1133500424E01 /* trophy.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,6 +776,52 @@
 				80A0BEC215CC0ABC00DB852F /* AFOpenTradesDetailedViewController.m in Sources */,
 				80A0BEC515CC0BBF00DB852F /* AFAnalysisDetailedViewController.m in Sources */,
 				80A0BEC815CC0D3A00DB852F /* AFDashboardSettingsViewController.m in Sources */,
+				8044D84115D0F83E00424E01 /* AFSettingsMasterViewController.m in Sources */,
+				8044D84615D0F86C00424E01 /* AFSettingsDetailedViewController.m in Sources */,
+				8044D8CD15D1133500424E01 /* Anchor.m in Sources */,
+				8044D8CE15D1133500424E01 /* AnchorInfo.m in Sources */,
+				8044D8CF15D1133500424E01 /* CustomBox.m in Sources */,
+				8044D8D015D1133500424E01 /* MIM_MathClass.m in Sources */,
+				8044D8D115D1133500424E01 /* MIMFloatingView.m in Sources */,
+				8044D8D215D1133500424E01 /* MIMMeter.m in Sources */,
+				8044D8D315D1133500424E01 /* MIMProperties.m in Sources */,
+				8044D8D415D1133500424E01 /* PageControl.m in Sources */,
+				8044D8D515D1133500424E01 /* XAxisBand.m in Sources */,
+				8044D8D615D1133500424E01 /* XAxisLabel.m in Sources */,
+				8044D8D715D1133500424E01 /* YAxisBand.m in Sources */,
+				8044D8D815D1133500424E01 /* BarInfoBox.m in Sources */,
+				8044D8D915D1133500424E01 /* BarView.m in Sources */,
+				8044D8DA15D1133500424E01 /* MIMBarGraph.m in Sources */,
+				8044D8DB15D1133500424E01 /* Cluster.m in Sources */,
+				8044D8DC15D1133500424E01 /* ClusterGraph.m in Sources */,
+				8044D8DD15D1133500424E01 /* MIMColor.m in Sources */,
+				8044D8DE15D1133500424E01 /* MIMColorClass.m in Sources */,
+				8044D8DF15D1133500424E01 /* 2DFragmentedDoughNut.m in Sources */,
+				8044D8E015D1133500424E01 /* DoughtNutFragmentTitle.m in Sources */,
+				8044D8E115D1133500424E01 /* GaugeGraph.m in Sources */,
+				8044D8E215D1133500424E01 /* LineInfoBox.m in Sources */,
+				8044D8E515D1133500424E01 /* LineScrollView.m in Sources */,
+				8044D8E615D1133500424E01 /* MIMLineGraph.m in Sources */,
+				8044D8E715D1133500424E01 /* MultiLineLongGraph.m in Sources */,
+				8044D8E815D1133500424E01 /* BasicPie.m in Sources */,
+				8044D8E915D1133500424E01 /* BasicPieChart.m in Sources */,
+				8044D8EB15D1133500424E01 /* BevelPieChart.m in Sources */,
+				8044D8ED15D1133500424E01 /* BiTransPieChart.m in Sources */,
+				8044D8EF15D1133500424E01 /* DefaultInfoBox.m in Sources */,
+				8044D8F015D1133500424E01 /* DefaultPopOverForPieChart.m in Sources */,
+				8044D8F115D1133500424E01 /* DetailPopOverStyle2.m in Sources */,
+				8044D8F215D1133500424E01 /* InfoBoxStyle1.m in Sources */,
+				8044D8F315D1133500424E01 /* InfoBoxStyle2.m in Sources */,
+				8044D8F515D1133500424E01 /* LayeredPieChart.m in Sources */,
+				8044D8F815D1133500424E01 /* MIMPieChart.m in Sources */,
+				8044D8FB15D1133500424E01 /* OthersPieChart.m in Sources */,
+				8044D8FD15D1133500424E01 /* PaddedPieChart.m in Sources */,
+				8044D8FE15D1133500424E01 /* PermanentScroller.m in Sources */,
+				8044D90015D1133500424E01 /* PieBubble.m in Sources */,
+				8044D90315D1133500424E01 /* ScrollViewSubClass.m in Sources */,
+				8044D90515D1133500424E01 /* SectionedPieChart.m in Sources */,
+				8044D90715D1133500424E01 /* MIMWallGraph.m in Sources */,
+				8044D90815D1133500424E01 /* MultiWallLongGraph.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
